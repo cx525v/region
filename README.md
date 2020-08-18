@@ -2,7 +2,7 @@
 
 2. ng serve
 
-3. run http://localhost
+3. run http://localhost:4200
 
 4. select region from region dropdown
 5. select country from country dropdown
