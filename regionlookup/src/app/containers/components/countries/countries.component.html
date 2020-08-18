@@ -1,0 +1,6 @@
+
+<app-dropdown *ngIf="dataSource" [label]="'Country'" [items]="dataSource" (itemChange) ="onCountryChange($event)"
+></app-dropdown>
+
+<app-country-details *ngIf="selectedCountry" [country] ="selectedCountry"></app-country-details>
+
